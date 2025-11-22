@@ -9,12 +9,12 @@ export const hero = {
     label: (
       <>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          Website Lengkap
+          Solusi Digital Terpercaya
         </Typography>
         <Chip
           label={
             <Typography variant="caption" sx={{ color: 'primary.dark' }}>
-              Informasi Jelas
+              Harga Transparan
             </Typography>
           }
           sx={{ height: 24, bgcolor: 'primary.lighter', mr: -1, ml: 0.75, '& .MuiChip-label': { px: 1.25 } }}
@@ -31,8 +31,9 @@ export const hero = {
       </>
     )
   },
-  headLine: 'Website Profesional untuk UMKM, Mudah & Terjangkau',
-  captionLine: 'Mulai dari toko kecil hingga usaha berkembang, website Anda siap membantu jualan lebih luas dan mudah ditemukan di Google',
+  headLine: 'Bangun Identitas Digital yang Premium & Profesional',
+  captionLine:
+    'Tingkatkan kredibilitas bisnis atau profil Anda dengan website berstandar tinggi. Desain elegan, performa cepat, dengan investasi yang sangat efisien',
   primaryBtn: { children: 'Konsultasi Sekarang', link: SECTION_PATH.contact },
   videoThumbnail: '/assets/videos/thumbnails/dummy-thumbnail.jpeg',
 

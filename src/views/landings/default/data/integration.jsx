@@ -1,32 +1,30 @@
 // @project
 import SvgIcon from '@/components/SvgIcon';
-import { DOCS_URL } from '@/path';
+import { DOCS_URL, KONSULTASI_PATH } from '@/path';
 
 export const integration = {
-  headLine: 'Tailored for Every Industry',
-  captionLine: 'From Project Management to AI, see how our UI Kit helps you build SaaS applications tailored for a variety of industries.',
+  headLine: 'Solusi Digital untuk Berbagai Sektor Bisnis',
+  captionLine:
+    'Dari usaha rintisan (Startup) hingga perusahaan mapan, kami merancang website yang sesuai dengan karakteristik industri dan target pasar Anda di Indonesia.',
   primaryBtn: {
     children: 'Documentation',
     startIcon: <SvgIcon name="tabler-help" color="background.default" />,
-    href: DOCS_URL,
+    href: KONSULTASI_PATH,
     target: '_blank',
     rel: 'noopener noreferrer'
   },
   tagList: [
-    { label: 'Project Management' },
-    { label: 'Customer Relationship Management (CRM)' },
-    { label: 'HR & Recruitment' },
-    { label: 'Finance & Accounting' },
-    { label: 'E-commerce Solutions' },
-    { label: 'Marketing Automation' },
-    { label: 'Healthcare & Telemedicine' },
-    { label: 'LMS' },
-    { label: 'AI & ML Platforms' },
-    { label: 'Inventory & Supply Chain Management' },
-    { label: 'Customer Support & Help Desk' },
-    { label: 'Email Marketing and SEO Tools' },
-    { label: 'Networking Platforms' },
-    { label: 'Blogging Tools' },
-    { label: 'Data Analytics & Business Intelligence' }
+    { label: 'Startup Teknologi' },
+    { label: 'F&B dan Kuliner (Restoran, Cafe, Franchise)' },
+    { label: 'Properti & Real Estate' },
+    { label: 'Pendidikan & Sekolah (Sekolah, Kampus, Kursus)' },
+    { label: 'Kesehatan & Klinik (Dokter, Apotek, Gym)' },
+    { label: 'Travel & Pariwisata (Agen Travel, Hotel, Sewa Mobil)' },
+    { label: 'Jasa Profesional (Pengacara, Notaris, Konsultan)' },
+    { label: 'Logistik & Ekspedisi' },
+    { label: 'Kontraktor & Konstruksi' },
+    { label: 'Organisasi & Yayasan (Non-profit/NGO)' },
+    { label: 'UMKM Kreatif (Kerajinan, Seni, Fotografi)' },
+    { label: 'Email Marketing and SEO Tools' }
   ]
 };

@@ -79,33 +79,39 @@ export const feature20 = {
   features: [
     {
       icon: 'tabler-brush',
-      title: 'Desain Modern & Responsif',
-      content: 'Website tampil keren dan menyesuaikan otomatis di semua perangkat — dari HP hingga laptop.'
+      title: 'UI/UX Premium & Konversi Tinggi',
+      content:
+        'Desain antarmuka berstandar internasional yang tidak hanya estetis di semua perangkat, tetapi dirancang psikologis untuk mengubah pengunjung menjadi klien.'
     },
     {
       icon: 'tabler-brand-google',
-      title: 'Optimasi SEO Lokal',
-      content: 'Bantu bisnismu mudah ditemukan di Google, terutama oleh calon pelanggan di sekitar lokasi usahamu.'
+      title: 'Performa Tinggi & SEO Global',
+      content:
+        'Dibangun dengan teknologi modern (Next.js) untuk kecepatan loading maksimal dan struktur SEO yang mudah ditemukan di pasar global, bukan hanya lokal.'
     },
     {
       icon: 'tabler-discount',
-      title: 'Harga Terjangkau',
-      content: 'Paket fleksibel sesuai kebutuhan dan budget UMKM, tanpa biaya tersembunyi.'
+      title: 'Investasi Cerdas & Transparan',
+      content:
+        'Kualitas setara top-tier agency dengan struktur harga yang efisien. Anda membayar untuk value dan hasil, tanpa biaya overhead yang tidak perlu.'
     },
     {
       icon: 'tabler-rocket',
-      title: 'Proses Cepat & Mudah',
-      content: 'Cukup kirim data dan kami bantu dari desain, hosting, hingga website siap online.'
+      title: 'Alur Kerja Terstruktur (Agile)',
+      content:
+        'Manajemen proyek yang rapi dan komunikasi transparan. Kami memastikan deadline tercapai dengan kualitas deliverables yang presisi.'
     },
     {
       icon: 'tabler-help',
-      title: 'Gratis Konsultasi Branding',
-      content: 'Dapatkan saran gratis untuk memperkuat tampilan dan pesan bisnismu di dunia digital.'
+      title: 'Konsultasi Strategi Digital',
+      content:
+        'Kami bukan sekadar vendor, tapi mitra strategis. Dapatkan wawasan mendalam untuk mematangkan identitas digital dan positioning bisnis Anda.'
     },
     {
       icon: 'tabler-refresh',
-      title: 'Maintenance & Update Berkala',
-      content: 'Kami bantu perawatan dan pembaruan agar website selalu aman, cepat, dan up-to-date.'
+      title: 'Infrastruktur Aman & Scalable',
+      content:
+        'Jaminan keamanan data dan arsitektur sistem yang siap berkembang (berskala besar) seiring dengan pertumbuhan trafik dan bisnis Anda.'
     }
   ]
 };
